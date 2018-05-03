@@ -56,9 +56,10 @@
 		C63585BB2099B47B0080C892 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				C6BB68CE209AF76B003C6B7C /* Models */,
+				C6BB68CD209AF75C003C6B7C /* Controllers */,
 				C63585CE2099BFF50080C892 /* Views */,
 				C63585BC2099B47B0080C892 /* AppDelegate.swift */,
-				C63585BE2099B47B0080C892 /* ViewController.swift */,
 				C63585C02099B47B0080C892 /* Main.storyboard */,
 				C63585C32099B47D0080C892 /* Assets.xcassets */,
 				C63585C52099B47D0080C892 /* LaunchScreen.storyboard */,
@@ -73,6 +74,21 @@
 				C63585CF2099C06D0080C892 /* BorderButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C6BB68CD209AF75C003C6B7C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C63585BE2099B47B0080C892 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C6BB68CE209AF76B003C6B7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
