@@ -8,11 +8,11 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class WelcomeViewController: UIViewController {
     
-    @IBOutlet weak var swoosh: UIImageView!
-    @IBOutlet weak var bgImg: UIImageView!
-    @IBOutlet weak var testBtn: UIButton!
+    @IBOutlet weak var lblSwoosh: UIImageView!
+    @IBOutlet weak var imgBG: UIImageView!
+    @IBOutlet weak var btnStart: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
