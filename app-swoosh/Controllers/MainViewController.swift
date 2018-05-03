@@ -8,16 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
+    @IBOutlet weak var testBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
 //        swoosh.frame = CGRect(x: (view.frame.size.width - swoosh.frame.size.width) / 2, y: (view.frame.size.height - swoosh.frame.size.height) / 25, width: swoosh.frame.size.width, height: swoosh.frame.size.height)
 //        bgImg.frame = view.frame
+    }
+    
+    @IBAction func unwindFromSkillViewController(_ unwindSegue: UIStoryboardSegue) {
+        
     }
 
     override func didReceiveMemoryWarning() {
