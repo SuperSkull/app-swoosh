@@ -22,6 +22,7 @@ class LeagueViewController: UIViewController {
     }
     
     @IBAction func onNextTapped(_ sender: Any) {
+        performSegue(withIdentifier: "skillViewControllerSegue", sender: self)
     }
 
     /*
