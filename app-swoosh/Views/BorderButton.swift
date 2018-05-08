@@ -17,3 +17,14 @@ class BorderButton: UIButton {
     }
 
 }
+
+extension UIButton {
+    func  addBoder() {
+        self.layer.borderWidth = 2.0
+        self.layer.borderColor = UIColor.white.cgColor
+    }
+    
+    func  resetBoder() {
+        self.layer.borderWidth = 0.0
+    }
+}
